@@ -1884,7 +1884,7 @@ abstract class RenderObject with DiagnosticableTreeMixin implements HitTestTarge
       exception: exception,
       stack: stack,
       library: 'rendering library',
-      context: ErrorDescription('during $method()'),
+      context:  ErrorDescription('during $method()'),
       informationCollector: () => <DiagnosticsNode>[
         // debugCreator should always be null outside of debugMode, but we want
         // the tree shaker to notice this.
